@@ -335,33 +335,7 @@ public class BluetoothBleManager {
                 mBleInterface.onChangePower(power);
             }break;
         }
-//        if (data[0]== CommandCode.BACK_SUCCESS){
-//            if (data[1]==(byte)0x01) {
-//                Message msg=new Message();
-//                msg.what=HANDLER_SET_PASSWORD;
-//                mMessageHandler.sendMessage(msg);
-//            }
-//            //若为获取密码
-//            else if (data[1]==(byte)0x02){
-//                mBleInterface.onChangeName();
-//            }
-//        }else if (data[0]== CommandCode.BACK_GET_PASSWORD){
-//            //若为获取密码
-//            byte[] bytesPassword=new byte[data.length-1];
-//            for (int i=0;i<bytesPassword.length;i++){
-//                bytesPassword[i]=data[i+1];
-//            }
-//        }
-//        //若返回的是心跳
-//        else if (data[0]== CommandCode.BACK_HEART_HIT)
-//        {
-//            handlerHearHitStop.removeCallbacks(runnableHearHitStop);
-//            handlerHearHitStop.postDelayed(runnableHearHitStop, hearHitDelayTime);
-//        }
-//        else if (data[0]== CommandCode.BACK_POWER){
-//            int power=0x000000ff & data[1];
-//            mBleInterface.onChangePower(power);
-//        }
+
     }
 
 
