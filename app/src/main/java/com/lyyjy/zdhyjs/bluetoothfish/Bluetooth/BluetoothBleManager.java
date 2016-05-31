@@ -419,8 +419,6 @@ public class BluetoothBleManager {
 
                     //若设置为自动重连
                     if (PersistentDataManager.getInstance(mCurrentContext).mIsAutoReconnect){
-//                        destory();
-//                        connect(mBluetoothDevice);
                         mBluetoothGatt.connect();
                     }
                 }break;
