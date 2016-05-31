@@ -820,6 +820,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     for (FishView fish :
                             mFishs) {
                         int[] vec = fish.getNextPosition();
+                        if (vec.length<2){
+                            return;
+                        }
                         int nextX = vec[0];
                         int nextY = vec[1];
                         fish.layout(nextX, nextY, nextX + fish.getWidth(), nextY + fish.getHeight());

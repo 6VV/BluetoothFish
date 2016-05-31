@@ -280,6 +280,9 @@ public class BluetoothBleManager {
 
     private void onGetData(byte[] data){
 //        Log.e(TAG,""+String.valueOf(data[0]));
+        if (data.length<2){
+            return;
+        }
         switch (data[0]){
             case CommandCode.BACK_SUCCESS:
             {
@@ -303,6 +306,9 @@ public class BluetoothBleManager {
                 Log.e(TAG, "P123:");
 
                 int powerArg=0;
+                if (data.length<6){
+                    return;
+                }
                 int power=0x000000ff & data[5];
 //                if (mPowerList.size()>10){
 //                    mPowerList.remove(0);
