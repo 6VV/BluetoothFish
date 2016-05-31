@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- 定义浮动的 ActionBar-->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/blurActionbarStyle</item>
+        <!-- 去除阴影-->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppThemeSetting" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- 定义浮动的 ActionBar-->
+        <item name="windowActionBarOverlay">true</item>
+        <!--<item name="actionBarStyle">@style/blurActionbarStyle</item>-->
+        <item name="android:actionBarSize">75dp</item>
+        <!-- 去除阴影-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="blurActionbarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <!--ActionBar的背景色设为透明-->
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    >
+    <item android:drawable="@mipmap/ink_fish1" android:duration="80"></item>
+    <item android:drawable="@mipmap/ink_fish2" android:duration="80"></item>
+    <item android:drawable="@mipmap/ink_fish3" android:duration="80"></item>
+    <item android:drawable="@mipmap/ink_fish4" android:duration="80"></item>
+    <item android:drawable="@mipmap/ink_fish5" android:duration="80"></item>
+    <item android:drawable="@mipmap/ink_fish6" android:duration="80"></item>
+    <item android:drawable="@mipmap/ink_fish7" android:duration="80"></item>
+    <item android:drawable="@mipmap/ink_fish8" android:duration="80"></item>
+    <item android:drawable="@mipmap/ink_fish9" android:duration="80"></item>
+    <item android:drawable="@mipmap/ink_fish10" android:duration="80"></item>
+</animation-list>

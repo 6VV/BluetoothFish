@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">仿生机器鱼</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="bluetooth_state">蓝牙状态</string>
+    <string name="connect_state">连接状态</string>
+    <string name="search">搜索</string>
+    <string name="setting">设置</string>
+    <string name="information">设备信息</string>
+</resources>

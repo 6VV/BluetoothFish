@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="swim_mode">
+        <item>前进</item>
+        <item>左转</item>
+        <item>右转</item>
+        <item>停止</item>
+    </string-array>
+</resources>

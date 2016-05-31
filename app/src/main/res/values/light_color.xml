@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="light_color">
+        <item name="white" format="color">#FFFFFF</item>
+        <item name="yellow" format="color">#FFFF00</item>
+        <item name="violet" format="color">#FF00FF</item>
+        <item name="red" format="color">#FF0000</item>
+        <item name="cyan" format="color">#00FFFF</item>
+        <item name="green" format="color">#00FF00</item>
+        <item name="blue" format="color">#0000FF</item>
+        <item name="black" format="color">#000000</item>
+    </string-array>
+</resources>
