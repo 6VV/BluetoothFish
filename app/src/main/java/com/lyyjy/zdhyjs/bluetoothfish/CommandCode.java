@@ -11,8 +11,8 @@ public class CommandCode {
     private static final byte COMMAND_HEAD_4 = (byte) 0x11;
 
     public static final byte FISH_UP =(byte)0x00;
-    public static final byte FISH_RIGHT =(byte)0x02;
-    public static final byte FISH_LEFT =(byte)0x03;
+    public static final byte FISH_RIGHT =(byte)0x03;
+    public static final byte FISH_LEFT =(byte)0x02;
     public static final byte FISH_STOP =(byte)0x20;
 
     private static final byte MODE_MANUAL=(byte)0x00;
